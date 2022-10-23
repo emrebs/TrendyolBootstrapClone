@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/8e0817d73d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+
+<nav class="navbar navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="#"> <img src="img/logo-trendyol.png" alt="Trendyol-Logo" style="height: 60px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <form class="d-flex ms-auto container-fluid w-50" role="search">
+        <div class="input-group">
+          <input class="form-control" type="search" placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+      </form>
+      <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll fs-14 " style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"> <i class="fa-regular fa-user px-1"></i>Hesabım</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#"><i class="fa-regular fa-heart px-1"></i>Favorilerim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart px-1" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>Sepetim</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<!-- Navbar End -->
+
+<!-- Header Start -->
+
+<nav class="navbar navbar-expand-md justify-content-center">
+  <div class="container row">
+    <ul class="navbar-nav fs-12 fw-bold justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#">KADIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ERKEK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">EV & MOBİLYA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SÜPER MARKET</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">KOZMETİK</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#">AYAKKABI & ÇANTA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SAAT & AKSESUAR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ELEKTRONİK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SPOR & OUTDOOR</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Header End -->
+
+<!-- BreadCrumb Start -->
+<nav class="container mt-3 fs-12 border-bottom border-secondary border-opacity-10 " style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" aria-current="page"><a class="text-decoration-none text-dark" href="#">Ana Sayfa</a> </li>
+    <li class="breadcrumb-item " aria-current="page"><a class="text-decoration-none text-dark" href="#">Elektronik</a></li>
+    <li class="breadcrumb-item" aria-current="page"><a class="text-decoration-none text-dark" href="#">Telefon</a></li>
+    <li class="breadcrumb-item" aria-current="page"> <a class="text-decoration-none text-dark" href="#">Cep Telefonu</a></li>
+    <li class="breadcrumb-item" aria-current="page"> <a class="text-decoration-none text-dark" href="#">Akıllı Cep Telefonu</a></li>
+    <li class="breadcrumb-item fw-bold" aria-current="page"> <a class="text-decoration-none text-dark" href="#">Apple Akıllı Cep Telefonu</a></li>
+  </ol>
+</nav>
+<!-- BreadCrumb End -->
+
+<!-- Article Start -->
+
+<!-- Slide Start -->
+
+<main class="container mt-3 ">
+  <div class="row">
+  <section class="col-sm-9 shadow-sm p-3 mb-5 bg-body rounded">
+  <article class="row">
+  <div class="col-sm-6 border rounded h-100">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/apple1.webp" class="d-block w-100" alt="apple img1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/apple2.jpeg" class="d-block w-100" alt="apple image2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/apple4.jpeg" class="d-block w-100" alt="apple image4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="row">
+    <div class="d-flex justify-content-center">
+      <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+        src="img/apple1.webp"
+        alt=""></a>
+      <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+        src="img/apple1.webp"
+        alt=""></a>
+      <a class="#" href="#"><img class=" w-35 rounded border outline-hover p-1 m-1"
+        src="img/apple1.webp"
+        alt=""></a>
+      <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+        src="img/apple1.webp"
+        alt=""></a>
+     
+    </div>
+  </div>
+    </div>
+  </div>
+ 
+<!-- Slide End -->
+
+  <div class="col-sm-6 text-start">
+  <h6> <strong>Apple</strong>  iPhone 11 64GB Aksesuarsız Kutu Kırmızı Cep Telefonu (Apple Türkiye Garantili)</h6>
+  <span class="fs-12">Satıcı: <a class="text-decoration-none" href="#">Apple</a>
+  </span>
+   
+  <div class="align-items-center star d-flex mt-2">
+     
+      <div class="d-flex"> 
+      <i class="fa-solid fa-star link-warning"></i>
+      <i class="fa-solid fa-star link-warning"></i>
+      <i class="fa-solid fa-star link-warning"></i>
+      <i class="fa-solid fa-star link-warning"></i>
+      <i class="fa-solid fa-star link-warning"></i>
+    </div>
+      
+      <div>
+      <a href="#" class="ms-3 text-decoration-none text-secondary border-end border-2 border-secondary pe-3 fs-12">753 Değerlendirme
+        <i class="fa-solid fa-camera"></i>
+      </a>
+    </div>
+    
+    <div>
+      <a href="#" class=" text-decoration-none text-secondary fs-12 ms-3">936 Soru & Cevap</a>
+    </div>
+  </div>
+  <div class="price mt-3">
+    <h2>15.940 TL</h2> 
+  </div>
+  <div class="text-end border-bottom fs-12">
+    <i class="fa-solid text-warning fa-bookmark"></i>
+    <span class="fs-12 "><a class="text-decoration-none text-dark" href="#"> Koleksiyona Ekle </a></span>
+</div>
+<div>
+
+  <div class="button">
+    <p class="fw-bold fs-12 mt-2">Dahili Hafıza</p>
+    <button type="button" class=" fs-12 btn btn-outline-secondary">64 GB</button>
+    <button type="button" class=" fs-12 btn btn-outline-secondary">128 GB</button>
+  </div>
+
+    <!-- Telephone Link Start -->
+    <div class="row mt-3">
+      <div class="fw-bold fs-12">Renk</div>
+  <div class="d-flex mt-3 mr-3">
+    <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+      src="img/apple1.webp"
+      alt=""></a>
+    <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+      src="img/apple1.webp"
+      alt=""></a>
+    <a class="#" href="#"><img class=" w-35 rounded border outline-hover p-1 m-1"
+      src="img/apple1.webp"
+      alt=""></a>
+    <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+      src="img/apple1.webp"
+      alt=""></a>
+    <a class="#" href="#"><img class="w-35 rounded border outline-hover p-1 m-1"
+      src="img/apple1.webp"
+      alt=""></a>
+   
+  </div>
+</div>
+    <!-- Telephone Link End -->
+    
+    <!-- Sepete Ekle Start -->
+
+  <div class="gap-2 d-flex mt-3">
+    <button class="btn color-orange col-sm-10 text-white" type="button">Sepete Ekle</button>
+    <button class="btn shadow-sm rounded btn-outline-secondary" type="button" >
+      <i class="fa-solid fa-heart"></i></button>
+      
+  </div>
+
+    <!-- Sepete Ekle End -->
+
+    <!-- Kargo Start -->
+
+ <div class="d-flex flex-row justify-content-between mt-2">
+  <div class="p-2 fs-10 fw-bold">Tahmini Kargoya Teslim: <span>3 gün içinde</span></div>
+  <div class="p-2 fs-10 text-black-50">
+    32980 favori
+  </div>
+ </div>
+
+ <div class="text-center mt-2 bg-green p-1 fs-12 rounded">
+  <div class="m-auto">
+  <i class="fa-solid fa-truck me-1"></i><span class="text">Hızlı teslimat yapan satıcı var !</span><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+
+  <!-- Kargo End -->
+
+  <!-- Featured information start -->
+
+ 
+    <div class="Featured information fs-10 list-group list-group-horizontal-sm mt-3 border-bottom border-top">
+      <div class="d-flex">
+      <div class="d-flex">
+      <ul class="text-black-50 type-none mt-3">
+        <li>Garanti Tipi</li>
+        <li>RAM Kapasitesi</li>
+        <li>Pil Gücü (mAh)</li>
+      </ul>
+      <ul class="type-none mt-3">
+        <li>:  4 GB</li>
+        <li>:  Bağlantılar</li>
+        <li>:  3000 - 4000</li>
+      </ul>
+    </div>
+      <div class="d-flex">
+      <ul class="text-black-50 type-none mt-3">
+        <li>Dahili Hafıza</li>
+        <li>Bağlantılar</li>
+        <li>Ekran Boyutu</li>
+      </ul>
+      <ul class="type-none mt-3">
+        <li>:  64 GB</li>
+        <li>:  Wi-Fi</li>
+        <li>:  6 inç ve üstü</li>
+      </ul>
+    </div>
+  </div>
+    </div>
+
+    <div class="Featured information fs-10 list-group list-group-horizontal-sm mt-3">
+      <ul class="mt-3 px-3 auto">
+        <li>15 gün içinde ücretsiz iade. Detaylı bilgi için <span> <a class="text-black-50" href="#">tıklayın.</a> </span> </li>
+        <li>Bu ürün <span class="text-dark text-decoration-underline">VATAN BİLGİSAYAR</span>  tarafından gönderilecektir.</li>
+        <li>2 yıl apple türkiye garantilidir. Kutu içeriğinde iphone ve usb-C - Lightning kablosu bulunmaktadır.</li>
+      </ul>
+    </div>
+<div class="d-grid gap-2">
+    <button type="button" class="btn fs-12 btn-outline-secondary">ÜRÜNÜN TÜM ÖZELLİKLERİ</button>
+  </div>
+</div>
+        <!-- Featured information End -->
+
+  </article>
+  </section>
+
+  <!-- Side Bar Star -->
+  <aside class="col-sm-3">
+    <div class="shadow-sm bg-body rounded
+    ">
+    <ul class="list-group fs-12 ">
+      <li class="list-group-item">ÜRÜNÜN KAMPANYALARI</li>
+      <li class="list-group-item nav-link">
+        <a class="text-decoration-none text-black fw-bold" href="#"> 75 TL ve Üzeri Kargo Bedava </a>
+        <i class="fa-solid fa-chevron-right ms-4"></i>
+      </li>
+    </ul>
+  </div>
+
+  <div class="shadow-sm bg-body rounded
+    ">
+    <ul class="list-group fs-12 mt-3">
+      <li class="list-group-item"><a class="text-decoration-none" href="#"> VATAN BİLGİSAYAR </a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="blue" class="bi bi-check-circle-fill ms-1" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>
+        <p class="fs-10 text-black-50">6.8B Takipçi</p>
+      </li>
+      <li class="list-group-item nav-link">
+        <a class="text-decoration-none text-black fw-bold" href="#"> Mağazayı Gör </a>
+        <i class="fa-solid fa-chevron-right ms-4"></i>
+      </li>
+      <li class="list-group-item nav-link">
+        <a class="text-decoration-none text-black fw-bold" href="#"> Ürün Soruları (7) </a>
+        <i class="fa-solid fa-chevron-right ms-4"></i>
+      </li>
+    </ul>
+  </div>
+
+  <div class="shadow-sm bg-body rounded
+    ">
+    <ul class="list-group fs-12 mt-3">
+      <li class="list-group-item">ÜRÜNÜN DİĞER SATICILARI
+      </li>
+      <li class="list-group-item"><a class="text-decoration-none fs-10" href="#">EBOMONLİNE</a>
+        <span class="fs-10 text-black-50">Tahmini Kargoya Teslim: 2 gün içinde</span> <br>
+        <span class="text-color fs-14 fw-bold">15.800 TL</span> <br>
+        <button type="button" class="btn btn-outline-secondary btn-sm px-1 fs-10">Kargo Bedava</button>
+        <button type="button" class="btn btn-primary btn-sm px-1 fs-10">Kurumsal Fatura</button>
+      </li>
+      <li class="list-group-item"><a class="text-decoration-none fs-10" href="#">ALDIMGİTTİ</a> <br>
+        <span class="fs-10 text-black-50">18 saat 11 dakika içinde sipariş verirsen en geç yarın kargoda!</span> <br>
+        <span class="text-color fs-14 fw-bold">17.800 TL</span> <br>
+        <button type="button" class="btn btn-outline-secondary btn-sm px-1 fs-10">Kargo Bedava</button>
+        <button type="button" class="btn btn-primary btn-sm px-1 fs-10">Kurumsal Fatura</button>
+      </li>
+      <li class="list-group-item"><a class="text-decoration-none fs-10" href="#">TÜMÜNÜ GÖR</a>
+      </li>
+    </ul>
+  </div>
+  </aside>
+  </main>
+
+ <!-- Side Bar End -->
+  <!-- Article End -->
+
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
